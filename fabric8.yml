@@ -1,0 +1,12 @@
+---
+buildName: "gcr.io"
+links:
+  Git: "https://github.com/mygitid2018/gcr.io"
+  Job: "http://jenkins.default.cluster.local/job/gcr.io"
+  Production: "http://10.10.10.154:80/kubernetes/pods?namespace=default-prod"
+  Staging: "http://10.10.10.154:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://10.10.10.154:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+  Production: "default-prod"
